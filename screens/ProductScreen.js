@@ -21,26 +21,25 @@ export default function ProductScreen({ navigation }) {
   }, []);
 
   return (
-    <Container>
-      <ScrollView>
+    <ScrollView>
+      <Container>
         <Header type="medium">Secondate products</Header>
         <Caption>There are 8 cool products</Caption>
         <ProductList />
-      </ScrollView>
-    </Container>
+      </Container>
+    </ScrollView>
   );
 }
 
 const Container = styled.View`
   flex: 1;
-  padding: 0 30px 10px 30px;
+  padding: 30px 30px 10px 30px;
   background: white;
 `;
 
 const Header = styled(Text)`
   color: #aa1f24;
   font-size: 18px;
-  margin-top: 30px;
 `;
 
 const Caption = styled(Text)`
