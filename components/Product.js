@@ -6,7 +6,7 @@ import styled from 'styled-components';
 export default function Product({ name, price, reviews, picture, ...props }) {
   return (
     <View {...props}>
-      <Thumbnail source={picture} resizeMode="contain" />
+      <Thumbnail source={picture} resizeMode="cover" />
       <Description>
         <Name type="demibold">{name}</Name>
         <Price>{price}</Price>
