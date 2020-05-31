@@ -70,7 +70,7 @@ const Header = styled.View`
 const Avatar = styled.Image`
   width: 88px;
   height: 88px;
-  background: white;
+  background: #fff0d3;
   border-radius: 44px;
   border-color: white;
   border-width: 4px;
