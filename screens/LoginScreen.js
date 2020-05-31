@@ -25,7 +25,7 @@ export default function LoginScreen({ navigation }) {
         <Info>
           <InfoText>Don't have an account? </InfoText>
           <TouchableOpacity>
-            <InfoLink>Sign Up</InfoLink>
+            <InfoLink type="demibold">Sign Up</InfoLink>
           </TouchableOpacity>
         </Info>
       </Footer>
@@ -59,11 +59,11 @@ const Info = styled.View`
   margin-top: 20px;
 `;
 
-const InfoText = styled.Text`
+const InfoText = styled(Text)`
   color: #aa1f24;
 `;
 
-const InfoLink = styled.Text`
+const InfoLink = styled(Text)`
   color: #aa1f24;
   font-size: 18px;
 `;
