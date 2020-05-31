@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "secondate",
+    "name": "Secondate",
     "slug": "secondate",
     "platforms": [
       "ios",
@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Implementation of https://dribbble.com/shots/11107546-Secondate-Beauty-Design-Concept\nTotal time spent: 3 hours",
+    "githubUrl": "https://github.com/edwardanthony/Secondate"
   }
 }
